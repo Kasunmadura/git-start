@@ -1,4 +1,4 @@
-## Setup basic
+### Setup basic
 
     mkdir testgit
     cd testgit
@@ -8,25 +8,32 @@
     git add .
     git commit
 
-## Adding tags
+### Adding tags
 
     git add tag tagname
     git show tagname
 
     git describe --tags
     git tag -a v1 -m "version 1.0 release"
-## Adding branch
+
+### Adding branch
 
     git branch -a
     git checkout -b deverlopment
     git merge deverlopment --no-ff
+    git push origin deverlopment
 
-## git logs
+    git remote add origin git@github.com:kasunr/test.git   
 
+### git logs
     git log
     git log -p -2
+    git log --stat
+    git log --pretty=online
+    git log --pretty=format:"%h: %an, %ae , %cd - %s" --graph
 
-## git remove and ignore
+
+### git remove and ignore
 
     git rm testremove.txt
     git commit -m "remove the file"
