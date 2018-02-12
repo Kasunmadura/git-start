@@ -32,6 +32,13 @@
     git log --pretty=online
     git log --pretty=format:"%h: %an, %ae , %cd - %s" --graph
 
+### git commands
+
+    git branch
+    git orgin
+    git merge new_feather (fast forword and recursive)
+
+
 
 ### git remove and ignore
 
