@@ -39,6 +39,30 @@
     git merge new_feather (fast forword and recursive)
 
 
+### git tags
+
+    git tag
+    git show
+
+    git tag <tag name> <commit id>
+    git tag -d <tag name> (deleted tag)
+
+    git tag v1.0 gsaseed
+    git tag -d v1.0
+
+    git push
+    git ls-remote (view tags in the centrla repo)
+    git fetch (pull all tags to central repo)
+
+    git tag v1.2 ewewew
+    git push remote-name tagname
+    git ls-remote --tags
+    git fetch --tags
+    git push --delete remove-name tagname
+
+
+
+
 
 ### git remove and ignore
 
